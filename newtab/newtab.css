@@ -3,11 +3,12 @@ body, html {
 	padding: 0;
 	width: 100%;
 	font-size: 18px;
-	font-family: 'Open Sans Light', sans-serif;
-	color: #737373;
+	font-family: Helvetica;
+	color: #727272;
+	background: #252525;
 }
 a {
-	color: #737373;	
+	color: #727272;	
 }
 h1 {
 	font-size: 18px;
@@ -15,21 +16,14 @@ h1 {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 0 12px 0;
-	font-family: 'Open Sans', sans-serif;
 }
 h4 {
 	padding: 0;
 	margin: 0 auto;
 	font-size: 18px;
 	font-weight: normal;
-	color: #999;
+	color: #727272;
 	text-align: center;	
-}
-hr {
-	border-top: dotted 1px #999;
-	border-bottom: none;
-	width: 600px;
-	margin: 10px auto 10px auto;
 }
 .time-holder {
 	position: absolute;
@@ -44,11 +38,12 @@ hr {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #E3E3E3;
+	background: #1C1C1C;
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	margin: 0 0 30px 30px;
 	max-width: 400px;
+	border-bottom: solid 1px #5F5F5F;
 }
 .quote-holder-inner {
 	padding: 20px;
@@ -57,28 +52,21 @@ hr {
 	clear: both;
 }
 .btn {
-	font-family: 'Open Sans', sans-serif;
 	display: inline-block;
 	font-size: 18px;
 	text-decoration: none;
 	padding: 10px 20px;
-	background: #E3E3E3;
+	background: #1C1C1C;
+	border-bottom: solid 1px #5F5F5F;
 	border-top-left-radius: 13px;
 	border-bottom-right-radius: 13px;
 }
 .btn:hover {
-	color: #000;
-}
-#sound {
-	display: inline-block;
-	margin: 0 0 0 4px;
-	width: 16px;
-	height: 16px;
-	background: url(../img/audio.png) no-repeat;
+	color: #FFF;
 }
 #time {
 	font-size: 240px;
-	color: #D4D4D4;
+	color: #727272;
 	font-family: 'Economica';
 	line-height: 210px;
 }
