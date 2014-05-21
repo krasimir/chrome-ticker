@@ -10,21 +10,6 @@ body, html {
 a {
 	color: #727272;	
 }
-h1 {
-	font-size: 18px;
-	font-weight: normal;
-	text-align: center;
-	margin: 0 auto;
-	padding: 0 0 12px 0;
-}
-h4 {
-	padding: 0;
-	margin: 0 auto;
-	font-size: 18px;
-	font-weight: normal;
-	color: #727272;
-	text-align: center;	
-}
 .time-holder {
 	position: absolute;
 	top: 50%;
@@ -35,34 +20,21 @@ h4 {
 	text-align: center;
 }
 .quote-holder {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	background: #1C1C1C;
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 30px;
-	margin: 0 0 30px 30px;
-	max-width: 400px;
-	border-bottom: solid 1px #5F5F5F;
+	max-width: 600px;
+	margin: 40px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
 }
-.quote-holder-inner {
-	padding: 20px;
+.quote-holder p {
+	padding: 0;
+	margin: 10px 0;
+}
+#author {
+	color: #555555;
 }
 .clear {
 	clear: both;
-}
-.btn {
-	display: inline-block;
-	font-size: 18px;
-	text-decoration: none;
-	padding: 10px 20px;
-	background: #1C1C1C;
-	border-bottom: solid 1px #5F5F5F;
-	border-top-left-radius: 13px;
-	border-bottom-right-radius: 13px;
-}
-.btn:hover {
-	color: #FFF;
 }
 #time {
 	font-size: 240px;
@@ -74,8 +46,16 @@ h4 {
 	font-size: 30px;
 }
 #get-the-old {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
 	position: absolute;
-	bottom: 0;
-	right: 0;
-	margin: 0 30px 30px 0;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	color: #3B3B3B;
+}
+#get-the-old:hover {
+	color: #FFF;
 }
