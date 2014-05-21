@@ -4,8 +4,8 @@ body, html {
 	width: 100%;
 	font-size: 18px;
 	font-family: Helvetica;
-	color: #727272;
-	background: #252525;
+	color: #A6A6A6;
+	background: #FFF;
 }
 a {
 	color: #727272;	
@@ -31,14 +31,13 @@ a {
 	margin: 10px 0;
 }
 #author {
-	color: #555555;
+	color: #BFBFBF;
 }
 .clear {
 	clear: both;
 }
 #time {
 	font-size: 240px;
-	color: #727272;
 	font-family: 'Economica';
 	line-height: 210px;
 }
@@ -54,7 +53,7 @@ a {
 	bottom: 10px;
 	text-align: center;
 	width: 100%;
-	color: #3B3B3B;
+	color: #D4D4D4;
 }
 #get-the-old:hover {
 	color: #FFF;
